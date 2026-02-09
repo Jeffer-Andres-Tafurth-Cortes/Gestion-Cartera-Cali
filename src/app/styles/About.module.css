@@ -1,0 +1,134 @@
+/* =========================
+   ABOUT / FEATURED SECTION
+========================= */
+
+.about {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+
+  min-height: 100vh;
+  padding: 6rem 3rem;
+  gap: 4rem;
+
+  background-color: #f4f6f8;
+
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* =========================
+   TEXT
+========================= */
+
+.text {
+  max-width: 620px;
+}
+
+.text h2 {
+  font-size: 2.6rem;
+  color: #004a80;
+  margin-bottom: 2rem;
+  line-height: 1.2;
+}
+
+.text p {
+  margin-top: 1.6rem;
+  line-height: 1.8;
+  font-size: 1.1rem;
+  color: #555555;
+}
+
+/* =========================
+   IMAGE CONTAINER (CLAVE)
+========================= */
+
+.imagePlaceholder {
+  position: relative; /* 🔑 OBLIGATORIO PARA Image fill */
+  width: 100%;
+  max-width: 420px;
+
+  aspect-ratio: 1 / 1; /* 🔑 mantiene proporción */
+  margin: 0 auto;
+
+  background: #ffffff;
+  border-radius: 16px;
+  overflow: hidden; /* 🔑 evita desbordes */
+
+  box-shadow: 0 14px 32px rgba(0, 0, 0, 0.12);
+}
+
+/* Imagen */
+.image {
+  object-fit: contain; /* logos NO se recortan */
+}
+
+/* =========================
+   FEATURED / BLOG IMAGE
+========================= */
+
+.featuredImage {
+  position: relative; /* 🔑 OBLIGATORIO */
+  width: 100%;
+  aspect-ratio: 16 / 9;
+
+  border-radius: 20px;
+  overflow: hidden;
+
+  background: #e5e7eb;
+}
+
+.featuredImage .image {
+  object-fit: cover; /* 🔑 imágenes editoriales */
+}
+
+/* =========================
+   RESPONSIVE
+========================= */
+
+@media (max-width: 1024px) {
+  .about {
+    padding: 5rem 2.5rem;
+    gap: 3rem;
+  }
+
+  .text h2 {
+    font-size: 2.3rem;
+  }
+}
+
+@media (max-width: 900px) {
+  .about {
+    grid-template-columns: 1fr;
+    min-height: auto;
+    padding: 5.5rem 2rem;
+    text-align: center;
+  }
+
+  .text {
+    margin: 0 auto;
+  }
+
+  .imagePlaceholder {
+    max-width: 340px;
+    margin-top: 3rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .about {
+    padding: 4.5rem 1.25rem;
+  }
+
+  .text h2 {
+    font-size: 2rem;
+  }
+
+  .text p {
+    font-size: 1rem;
+  }
+
+  .imagePlaceholder {
+    max-width: 280px;
+  }
+}

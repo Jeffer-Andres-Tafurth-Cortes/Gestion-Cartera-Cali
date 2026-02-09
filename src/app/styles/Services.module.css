@@ -1,0 +1,177 @@
+.services {
+  padding: 5rem 2.5rem;
+}
+
+/* =========================
+   TITLE
+========================= */
+
+.services h2 {
+  max-width: 760px;
+  margin: 0 auto 3.5rem;
+  text-align: center;
+
+  font-size: 2.3rem;
+  font-weight: 600;
+  color: #004a80;
+}
+
+.services h2::after {
+  content: "";
+  display: block;
+  width: 90px;
+  height: 4px;
+  background-color: #004a80;
+  margin: 1.1rem auto 0;
+  border-radius: 4px;
+}
+
+/* =========================
+   SUBTITLE
+========================= */
+
+.subTitle {
+  max-width: 1100px;
+  margin: 0 auto 2.2rem;
+
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: #004a80;
+}
+
+/* =========================
+   GRID
+========================= */
+
+.grid {
+  max-width: 1100px;
+  margin: 0 auto 4rem;
+
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2.2rem;
+}
+
+/* =========================
+   CARD
+========================= */
+
+.card {
+  padding: 2.4rem 2.2rem;
+
+  border-left: 7px solid #004a80;
+  border-radius: 10px;
+
+  color: var(--c-black);
+  transition:
+    transform 0.25s ease,
+    box-shadow 0.25s ease,
+    border-color 0.25s ease;
+}
+
+.card h4 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #004a80;
+}
+
+.card p {
+  margin-top: 0.9rem;
+  line-height: 1.65;
+  color: #3e3e3e;
+  font-size: 1rem;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 16px 36px rgba(0, 0, 0, 0.12);
+  border-left-color: var(--c-gold);
+}
+
+/* =========================
+   HEALTH SECTOR
+========================= */
+
+.healthCard {
+  background: linear-gradient(180deg, #fffaf3 0%, var(--c-primary) 100%);
+  border-left-color: var(--c-purple);
+}
+
+.healthCard h4 {
+  color: var(--c-purple);
+}
+
+/* =========================
+   CTA BUTTON
+========================= */
+
+.ctaWrapper {
+  text-align: center;
+  margin-top: 3rem;
+}
+
+.ctaButton {
+  display: inline-block;
+  padding: 0.85rem 2.4rem;
+
+  background-color: #004a80;
+  color: #ffffff;
+  font-size: 0.95rem;
+  font-weight: 600;
+  letter-spacing: 0.4px;
+
+  border-radius: 999px;
+  text-decoration: none;
+  transition:
+    background-color 0.25s ease,
+    transform 0.25s ease,
+    box-shadow 0.25s ease;
+}
+
+.ctaButton:hover {
+  background-color: #00375f;
+  transform: translateY(-2px);
+  box-shadow: 0 10px 24px rgba(0, 74, 128, 0.35);
+}
+
+/* =========================
+   RESPONSIVE
+========================= */
+
+@media (max-width: 900px) {
+  .services {
+    padding: 4rem 1.75rem;
+  }
+
+  .grid {
+    grid-template-columns: 1fr;
+    gap: 1.8rem;
+  }
+
+  .services h2 {
+    font-size: 2rem;
+    margin-bottom: 2.8rem;
+  }
+
+  .subTitle {
+    font-size: 1.4rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .services {
+    padding: 3.5rem 1.25rem;
+  }
+
+  .services h2 {
+    font-size: 1.8rem;
+  }
+
+  .card {
+    padding: 2rem 1.6rem;
+  }
+
+  .card h4 {
+    font-size: 1.15rem;
+  }
+}

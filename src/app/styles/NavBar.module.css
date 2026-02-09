@@ -1,0 +1,218 @@
+/* =========================
+   NAVBAR BASE
+========================= */
+
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 90px;
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  align-items: center;
+  padding: 0 2.5rem;
+  background-color: #ffffff;
+  border-bottom: 1px solid #e5e5e5;
+  z-index: 1000;
+}
+
+/* =========================
+   LEFT
+========================= */
+
+.left {
+  display: flex;
+  align-items: center;
+}
+
+/* =========================
+   LOGO
+========================= */
+
+.logoWrapper {
+  position: relative;
+  width: 70px;
+  height: 70px;
+}
+
+.logoWrapper img {
+  object-fit: contain;
+}
+
+/* =========================
+   CENTER (DESKTOP MENU)
+========================= */
+
+.center {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.center a {
+  text-decoration: none;
+  color: #004a80;
+  font-weight: 500;
+  font-size: 0.95rem;
+  transition: color 0.2s ease;
+}
+
+.center a:hover {
+  color: #5eb3e4;
+}
+
+/* =========================
+   RIGHT
+========================= */
+
+.right {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+/* =========================
+   CTA
+========================= */
+
+.cta {
+  background-color: #f4c300;
+  color: #004a80;
+  padding: 0.55rem 1.4rem;
+  border: none;
+  border-radius: 4px;
+  font-weight: 600;
+  font-size: 0.9rem;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: background-color 0.2s ease;
+}
+
+.cta:hover {
+  background-color: #c4911a;
+}
+
+/* =========================
+   HAMBURGER
+========================= */
+
+.menuButton {
+  display: none;
+  background: none;
+  border: none;
+  font-size: 1.6rem;
+  cursor: pointer;
+  color: #004a80;
+}
+
+/* =========================
+   MOBILE MENU
+========================= */
+
+.mobileMenu {
+  position: fixed;
+  top: 90px;
+  left: 0;
+  width: 100%;
+  background-color: #ffffff;
+  border-top: 1px solid #e5e5e5;
+  padding: 2rem;
+
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+
+  z-index: 999;
+}
+
+.mobileMenu a {
+  text-decoration: none;
+  color: #004a80;
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+.mobileMenu a:hover {
+  color: #5eb3e4;
+}
+
+.mobileMenu button {
+  margin-top: 1rem;
+  align-self: flex-start;
+  background-color: #f4c300;
+  color: #004a80;
+  padding: 0.6rem 1.4rem;
+  border: none;
+  border-radius: 4px;
+  font-weight: 600;
+}
+
+/* =========================
+   TABLET
+========================= */
+
+@media (max-width: 1024px) {
+  .navbar {
+    height: 80px;
+    padding: 0 2rem;
+  }
+
+  .logoWrapper {
+    width: 60px;
+    height: 60px;
+  }
+
+  .mobileMenu {
+    top: 80px;
+  }
+}
+
+/* =========================
+   MOBILE
+========================= */
+
+@media (max-width: 768px) {
+  .navbar {
+    height: 70px;
+    padding: 0 1.5rem;
+  }
+
+  .logoWrapper {
+    width: 48px;
+    height: 48px;
+  }
+
+  .center {
+    display: none;
+  }
+
+  .cta {
+    display: none;
+  }
+
+  .menuButton {
+    display: block;
+  }
+
+  .mobileMenu {
+    top: 70px;
+  }
+}
+
+/* =========================
+   SMALL MOBILE
+========================= */
+
+@media (max-width: 420px) {
+  .navbar {
+    padding: 0 1rem;
+  }
+
+  .logoWrapper {
+    width: 42px;
+    height: 42px;
+  }
+}

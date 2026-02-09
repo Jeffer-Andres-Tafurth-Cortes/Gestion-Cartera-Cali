@@ -1,0 +1,174 @@
+/* =========================
+   FOOTER
+========================= */
+
+.footer {
+  background-color: #002f52;
+  color: #ffffff;
+  font-size: 0.9rem;
+  padding: 3rem 1.5rem 1.5rem;
+}
+
+.footerContent {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1.2fr 1fr;
+  gap: 2rem;
+  text-align: left;
+}
+
+.brand h4 {
+  font-size: 1.2rem;
+  margin-bottom: 0.6rem;
+  color: #ffffff;
+}
+
+.brand p {
+  font-size: 0.9rem;
+  line-height: 1.6;
+  color: #e0e0e0;
+}
+
+.contactInfo p {
+  margin: 0.4rem 0;
+  font-size: 0.9rem;
+  color: #e0e0e0;
+}
+
+.contactInfo strong {
+  color: #ffffff;
+}
+
+.contactInfo a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.contactInfo a:hover {
+  text-decoration: underline;
+}
+
+/* =========================
+   COPYRIGHT
+========================= */
+
+.copy {
+  margin-top: 2rem;
+  padding-top: 1rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.15);
+  text-align: center;
+  font-size: 0.85rem;
+  color: #d0d0d0;
+}
+
+/* =========================
+   SOCIAL FLOATING
+========================= */
+
+.socialFloating {
+  position: fixed;
+  bottom: 28px;
+  right: 28px;
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+  z-index: 1000;
+}
+
+/* =========================
+   SOCIAL CIRCLE
+========================= */
+
+.social {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  opacity: 0.9;
+  transition:
+    opacity 0.2s ease,
+    transform 0.2s ease;
+}
+
+/* Hover sutil */
+.social:hover {
+  opacity: 0.75;
+  transform: translateY(-2px);
+}
+
+/* =========================
+   ICON INNER
+========================= */
+
+.icon {
+  width: 22px;
+  height: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.95rem;
+  color: #ffffff;
+}
+
+/* =========================
+   COLORS BY NETWORK
+========================= */
+
+.whatsapp {
+  background-color: #25d366;
+  border: 2px solid #1ebe5b;
+}
+
+.instagram {
+  background-color: #e1306c;
+  border: 2px solid #c72e61;
+}
+
+.linkedin {
+  background-color: #0077b5;
+  border: 2px solid #00669c;
+}
+
+/* =========================
+   RESPONSIVE
+========================= */
+
+@media (max-width: 768px) {
+  .footerContent {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .brand h4 {
+    font-size: 1.1rem;
+  }
+
+  .brand p {
+    font-size: 0.88rem;
+  }
+
+  .contactInfo p {
+    font-size: 0.88rem;
+  }
+
+  .socialFloating {
+    bottom: 20px;
+    right: 20px;
+    gap: 0.7rem;
+  }
+
+  .social {
+    width: 40px;
+    height: 40px;
+  }
+
+  .icon {
+    width: 20px;
+    height: 20px;
+    font-size: 0.9rem;
+  }
+}
