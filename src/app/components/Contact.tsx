@@ -49,7 +49,7 @@ export default function Contact() {
           Brindamos{" "}
           <strong>
             servicios de gestión, recaudo y cobro de cartera en Cali
-          </strong>
+          </strong>{" "}
           para empresas, comerciantes y entidades del sector salud. Nuestro
           enfoque combina estrategias de negociación profesional y
           acompañamiento jurídico conforme a la normativa colombiana vigente.
@@ -103,9 +103,8 @@ export default function Contact() {
         <h3>Oficina de atención en Cali, Valle del Cauca</h3>
 
         <p>
-          Atendemos empresas y personas en Cali y municipios cercanos del Valle
-          del Cauca. Puede agendar una asesoría virtual o presencial según sus
-          necesidades.
+          Atendemos empresas y personas en Cali. Puede agendar una asesoría
+          virtual o presencial según sus necesidades.
         </p>
 
         <div className={styles.mapWrapper}>
