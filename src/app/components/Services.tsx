@@ -5,47 +5,47 @@ import { motion } from "framer-motion";
 
 const generalServices = [
   {
-    title: "Recuperación de cartera en Bucaramanga",
+    title: "Recuperación de cartera en Cali",
     description:
-      "Apoyamos a empresas, comerciantes y personas naturales en Bucaramanga en la recuperación de cartera vencida, mediante estrategias de negociación responsables que buscan normalizar las obligaciones sin deteriorar la relación comercial con los deudores.",
+      "Apoyamos a empresas, comerciantes y personas naturales en Cali en la recuperación de cartera vencida mediante estrategias de negociación estructuradas, éticas y orientadas a resultados. Nuestro objetivo es normalizar obligaciones sin deteriorar la relación comercial con los deudores.",
   },
   {
-    title: "Gestión integral de cartera",
+    title: "Gestión integral de cartera empresarial en Cali",
     description:
-      "Administramos de forma integral los procesos de cartera de empresas en Bucaramanga y Santander, realizando seguimiento permanente, control por etapas y reportes claros que permiten tomar decisiones oportunas y reducir los índices de morosidad.",
+      "Administramos procesos completos de gestión de cartera para empresas en Cali y el Valle del Cauca, realizando seguimiento por etapas, control de mora y reportes estratégicos que permiten reducir índices de morosidad y mejorar el flujo de caja.",
   },
   {
-    title: "Recaudo de cartera empresarial",
+    title: "Recaudo de cartera para empresas",
     description:
-      "Diseñamos e implementamos estrategias de recaudo de cartera adaptadas a la realidad financiera de cada empresa, facilitando acuerdos de pago y promoviendo el cumplimiento oportuno de las obligaciones pendientes.",
+      "Diseñamos estrategias de recaudo de cartera adaptadas a la realidad financiera de cada empresa en Cali, facilitando acuerdos de pago efectivos y promoviendo el cumplimiento oportuno de obligaciones pendientes.",
   },
   {
-    title: "Cobro de cartera prejurídico y jurídico",
+    title: "Cobro de cartera prejurídico y jurídico en Cali",
     description:
-      "Desarrollamos procesos de cobro de cartera bajo los lineamientos legales vigentes en Colombia, actuando de manera ética, transparente y respetuosa, tanto en etapas prejurídicas como en procesos jurídicos formales.",
+      "Ejecutamos procesos de cobro de cartera bajo la normatividad colombiana vigente, actuando de forma ética y profesional tanto en la etapa prejurídica como en procesos ejecutivos ante juzgados de Cali.",
   },
 ];
 
 const healthServices = [
   {
-    title: "Recaudo de cartera para el sector salud",
+    title: "Recaudo de cartera para el sector salud en Cali",
     description:
-      "Ofrecemos servicios especializados de recaudo de cartera para el sector salud en Colombia, apoyando a clínicas, hospitales, IPS y profesionales de la salud en la recuperación de cuentas pendientes provenientes de servicios médicos y asistenciales.",
+      "Ofrecemos servicios especializados de recuperación de cartera para clínicas, hospitales, IPS y profesionales del sector salud en Cali, gestionando cuentas derivadas de servicios médicos y asistenciales.",
   },
   {
     title: "Recuperación de cartera EPS e IPS",
     description:
-      "Acompañamos a IPS y prestadores de servicios de salud en la recuperación de cartera frente a EPS y otros pagadores, gestionando procesos de conciliación, seguimiento y normalización de cuentas conforme a la normatividad del sistema de salud colombiano.",
+      "Acompañamos a IPS y prestadores de servicios de salud en la recuperación de cartera frente a EPS y demás pagadores, gestionando conciliaciones, seguimiento técnico y normalización de cuentas conforme a la regulación del sistema de salud colombiano.",
   },
   {
     title: "Gestión de cartera por servicios médicos",
     description:
-      "Administramos cartera derivada de consultas, procedimientos, hospitalizaciones y servicios especializados, garantizando trazabilidad, control documental y un recaudo estructurado que mejora el flujo de caja de las entidades de salud.",
+      "Administramos cartera derivada de consultas, procedimientos, hospitalizaciones y servicios especializados, garantizando trazabilidad documental y recaudo estructurado que fortalece la estabilidad financiera de las entidades de salud.",
   },
   {
-    title: "Cobro prejurídico y jurídico en salud",
+    title: "Cobro prejurídico y jurídico en el sector salud",
     description:
-      "Ejecutamos procesos de cobro de cartera en el sector salud bajo un enfoque legal y técnico, respetando los marcos regulatorios vigentes y buscando soluciones efectivas que permitan la recuperación de recursos sin afectar la operación de las entidades.",
+      "Desarrollamos procesos de cobro en salud bajo un enfoque técnico y legal, respetando los marcos regulatorios vigentes y buscando soluciones efectivas para la recuperación de recursos.",
   },
 ];
 
@@ -65,7 +65,7 @@ export default function Services() {
         viewport={{ once: true }}
         transition={{ duration: 0.5, ease: "easeOut" }}
       >
-        Servicios de gestión y recuperación de cartera en Bucaramanga
+        Servicios de gestión y recuperación de cartera en Cali
       </motion.h2>
 
       {/* Cartera general */}

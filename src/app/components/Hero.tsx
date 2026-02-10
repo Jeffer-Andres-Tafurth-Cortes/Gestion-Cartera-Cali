@@ -31,7 +31,7 @@ export default function Hero() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, ease: "easeOut", delay: 0.2 }}
         >
-          Recuperación de cartera en Bucaramanga para empresas y personas
+          Gestión y Cobro de Cartera en Cali - Recuperación Efectiva de Deudas
         </motion.h1>
 
         <motion.p
@@ -39,24 +39,10 @@ export default function Hero() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, ease: "easeOut", delay: 0.3 }}
         >
-          Ofrecemos servicios profesionales de{" "}
-          <strong>gestión y recuperación de cartera en Bucaramanga</strong>,
-          ayudando a empresas, comerciantes y personas naturales a recuperar
-          obligaciones pendientes mediante procesos de cobranza
-          <strong> prejurídica y jurídica</strong>, siempre bajo un marco legal,
-          ético y transparente.
-        </motion.p>
-
-        <motion.p
-          initial={{ opacity: 0, y: 16 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.5, ease: "easeOut", delay: 0.4 }}
-        >
-          Analizamos cada caso de forma individual para diseñar estrategias de
-          cobro adaptadas al contexto empresarial y comercial de{" "}
-          <strong>Bucaramanga y Santander</strong>, priorizando la recuperación
-          efectiva de cartera sin afectar la relación con clientes ni la
-          reputación del negocio.
+          Somos especialistas en gestión y recuperación de cartera en Cali.
+          Apoyamos a empresas, pymes y comerciantes del Valle del Cauca en la
+          recuperación de cartera vencida mediante procesos prejurídicos y
+          jurídicos estructurados.
         </motion.p>
 
         <motion.button
@@ -65,7 +51,7 @@ export default function Hero() {
           transition={{ duration: 0.5, ease: "easeOut", delay: 0.5 }}
           onClick={handleClick}
         >
-          Solicitar asesoría en recuperación de cartera
+          Solicitar asesoría en Cali
         </motion.button>
       </motion.div>
 
@@ -76,8 +62,8 @@ export default function Hero() {
         transition={{ duration: 0.6, ease: "easeOut", delay: 0.3 }}
       >
         <Image
-          src="/recuperacion-cartera.webp"
-          alt="Recuperación de cartera en Bucaramanga para empresas y comerciantes"
+          src="/hero.jpg"
+          alt="Recuperación de cartera en Cali para empresas y comerciantes"
           width={520}
           height={340}
           sizes="(max-width: 768px) 100vw, 520px"
