@@ -35,20 +35,20 @@ export default function Footer() {
             <p>
               <strong>Correo:</strong>{" "}
               <a
-                href="mailto:contacto@praviceabogados.com"
+                href="mailto:info.pravice@abogadosespecialistas.com.co"
                 title="Correo de contacto Pravice gestión de cartera"
               >
-                contacto@praviceabogados.com
+                info.pravice@abogadosespecialistas.com.co
               </a>
             </p>
 
             <p>
               <strong>Teléfono:</strong>{" "}
               <a
-                href="tel:+573000000000"
+                href="https://api.whatsapp.com/send/?phone=573114659315&text&type=phone_number&app_absent=0"
                 title="Teléfono de contacto gestión de cartera"
               >
-                +57 300 000 0000
+                +57 311 465 9315
               </a>
             </p>
           </address>
@@ -62,7 +62,7 @@ export default function Footer() {
       {/* Redes sociales flotantes */}
       <div className={styles.socialFloating}>
         <a
-          href="https://api.whatsapp.com/message/RE7FEN4IGOISD1?autoload=1&app_absent=0"
+          href="https://api.whatsapp.com/send/?phone=573114659315&text&type=phone_number&app_absent=0"
           aria-label="WhatsApp Pravice gestión de cartera"
           className={`${styles.social} ${styles.whatsapp}`}
           target="_blank"
